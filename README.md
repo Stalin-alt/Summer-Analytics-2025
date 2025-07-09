@@ -20,9 +20,9 @@ Handling missing values, outliers, and data cleaning.
 Feature engineering: encoding categorical variables, normalization, or scaling as needed.
 
 Model Development
-Model 1: Classification (e.g., Logistic Regression, Random Forest)
+Model 1:This model provides a quick, interpretable baseline for price estimation based on real-time occupancy, suitable for initial deployment or as a benchmark for more advanced models.
 Model 2: Regression (e.g., Linear Regression, XGBoost Regressor)
-Model 3: Clustering (e.g., KMeans, Hierarchical Clustering)
+Model 3: This model is suitable for complex, real-world scenarios where multiple factors and competitive dynamics influence pricing. It enables localized, responsive pricing strategies that can adapt to both feature-driven and spatial market conditions.
 Each model is trained on the processed dataset with relevant hyperparameter tuning.
 Evaluation & Metrics
 Classification: Accuracy, Precision, Recall, F1-Score, ROC-AUC.
