@@ -1,5 +1,7 @@
 # Summer-Analytics-2025
 
+model 1, model 2, model 3 are for final capstone project.
+
 In this repository I have given submissions for three different machine learning models developed as part of the Summer Analytics Capstone project. Each model addresses a specific problem statement and demonstrates a unique approach, using various data science and machine learning techniques. My goal was to showcase model development, evaluation, and deployment readiness in a reproducible and collaborative manner.
 
 Tech Stacks : 
