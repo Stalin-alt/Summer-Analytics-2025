@@ -21,18 +21,18 @@ Feature engineering: encoding categorical variables, normalization, or scaling a
 
 Model Development
 Model 1:This model provides a quick, interpretable baseline for price estimation based on real-time occupancy, suitable for initial deployment or as a benchmark for more advanced models.
-Model 2: Regression (e.g., Linear Regression, XGBoost Regressor)
+
+Model 2: This model is suitable for environments where pricing must react to a blend of operational and contextual factors in real time. It enables nuanced price adjustments based on current demand signals, helping optimize resource utilization and revenue.
+
 Model 3: This model is suitable for complex, real-world scenarios where multiple factors and competitive dynamics influence pricing. It enables localized, responsive pricing strategies that can adapt to both feature-driven and spatial market conditions.
-Each model is trained on the processed dataset with relevant hyperparameter tuning.
+
 Evaluation & Metrics
+
 Classification: Accuracy, Precision, Recall, F1-Score, ROC-AUC.
-Regression: RMSE, MAE, R² Score.
-Clustering: Silhouette Score, Inertia, Cluster Visualization.
+
 Visualizations for model performance and feature importance.
-Results & Reporting
+
+Results & Reporting :
 Summary of findings for each model.
 Comparative analysis and discussion of results.
-Deployment (Optional)
-Exporting models as .pkl files.
-Example scripts for inference or API integration.
-Additional Documentation
+Additional Documentation.
